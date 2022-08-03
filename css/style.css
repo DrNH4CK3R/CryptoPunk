@@ -281,6 +281,9 @@
     height: 193px;
     filter: blur(150px);
   }
+  .bgElipse2{
+    opacity: 0;
+  }
 }
 
 .bgdecor1{
@@ -295,7 +298,7 @@
     width: 66.4px;
     height: 68.82px;
     top: 43%;
-    left: -6%;
+    left: -8%;
   }
 }
 
@@ -306,9 +309,10 @@
 }
 @media (max-width: 768px) {
   .nftimg{
-    width: 308.31px;
-    height: 327px;
-    top: 50%;
+    width: 290px;
+    height: 320px;
+    left: 4%;
+    top: 47%;
   }
 }
 .home-section h1{
@@ -341,17 +345,19 @@
 }
 @media (max-width: 768px) {
   .home-section h1{
-    width: 400px;
-    font-size: 39px;
+    width: 380px;
+    font-size: 30px;
+    line-height: 45px;
     text-align: center;
-    right: 8%;
+    right: -7%;
   }
   .home-section p{
-    width: 375px;
-    font-size: 16px;
+    width: 335px;
+    font-size: 14px;
     text-align: center;
     line-height: 19px;
-    top: 28%;
+    top: 23%;
+    right: -1%;
   }
 }
 
@@ -383,7 +389,7 @@
     width: 100px;
     height: 34px;
     right: 40%;
-    top: 37%;
+    top: 31%;
   }
   .btn i{
     font-size: 14px;
